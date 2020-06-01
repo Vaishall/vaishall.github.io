@@ -5,9 +5,13 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-:root {
+/*:root {
   --heart-icon-color: #ff6058;
   --heart-icon-size: 7vw;
+}*/
+
+html{height: 100%;
+  width: 100%;
 }
 body {
   background: white;
@@ -16,24 +20,25 @@ body {
 	background-position: fixed;
 	background-repeat: no-repeat;
   height: 100%;
-	
-}
-
-html{height: 100%;}
-
-#card-front {
-  color: #FFDFDF;
+  width: 100%;	
 }
 
 #card, #card-front, #card-inside {
   /*height: 960px;*/
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
+
+#card-front {
+  color: #FFDFDF;
+}
+
+
 
 .wrap {
     padding: 0em 0em;
     height: 100%;
+    width: 100%;
 }
 #card-front, #card-inside {
   width: 90%;
@@ -95,9 +100,13 @@ html{height: 100%;}
   font-size: 2vh;
   color: purple;
   margin-top: 15%;
-  margin-right: 300%;
+  margin-right: 50%;
 }
 @media(max-width: 470px){
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
 	.text{
 		font-size: 0.7em;
 		margin: 0;
