@@ -28,6 +28,7 @@ html{height: 100%;}
 #card, #card-front, #card-inside {
   /*height: 960px;*/
   height: 100%;
+  width: 100%;
 }
 
 .wrap {
